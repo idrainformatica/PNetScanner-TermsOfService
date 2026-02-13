@@ -1,0 +1,40 @@
+---
+---
+@import "{{ site.theme }}";
+
+
+$matrix-green: #00FF41;
+$matrix-dark-green: #003B00;
+
+body {
+  color: $matrix-green;
+  background-color: #0d0208;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $matrix-green;
+  text-shadow: 0 0 5px $matrix-green;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+  
+  &:hover {
+    color: $matrix-green;
+    background-color: $matrix-dark-green;
+  }
+}
+
+code {
+  background-color: $matrix-dark-green;
+  color: #ffffff;
+}
+
+
+hr {
+  background-color: $matrix-green;
+  height: 1px;
+  border: none;
+}
